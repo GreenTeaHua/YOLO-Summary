@@ -120,11 +120,11 @@ YOLO-v3-tiny-PRN
 | Model | Size | mAP@0.5 | BFLOPs |
 | :-- | :-: | :-: | :-- |
 | EfficientNet_b0-PRN | 416x416 | 45.5 | 3.730 |
-| EfficientNet_b0-PRN | 320x320 | 41.0 | 2.208 |
+| EfficientNet_b0-PRN | 320x320 | 41.0 | 2.208 |  
   
-|Model	|mAP@0.5	|BFLOPs	|# Parameter	|GPU FPS	|CPU FPS|
-|YOLO-v3-tiny [1]	| 33.1 |	5.571 |	8.86M |	300 |	8 |
-YOLO-v3-tiny-PRN |	33.1 |	3.467 |	4.95M |	370 |	13 |
+|Model	|mAP@0.5	|BFLOPs	|# Parameter	|GPU FPS	|CPU FPS|  
+|YOLO-v3-tiny [1]	| 33.1 |	5.571 |	8.86M |	300 |	8 |  
+YOLO-v3-tiny-PRN |	33.1 |	3.467 |	4.95M |	370 |	13 |  
 + https://github.com/WongKinYiu/PartialResidualNetworks
 ### 5.2 Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving
 ![4.png](image/4.png)
