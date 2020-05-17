@@ -123,6 +123,7 @@ YOLO-v3-tiny-PRN
 | EfficientNet_b0-PRN | 320x320 | 41.0 | 2.208 |  
   
 |Model	|mAP@0.5	|BFLOPs	|# Parameter	|GPU FPS	|CPU FPS|  
+| :-- | :-: | :-: | :-- | :-- | :-- |
 |YOLO-v3-tiny [1]	| 33.1 |	5.571 |	8.86M |	300 |	8 |  
 YOLO-v3-tiny-PRN |	33.1 |	3.467 |	4.95M |	370 |	13 |  
 + https://github.com/WongKinYiu/PartialResidualNetworks
