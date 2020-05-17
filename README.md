@@ -115,11 +115,16 @@ Traffic Signal Violation Detection System using Computer Vision - A Computer Vis
 + https://github.com/SpursLipu/YOLOv3-ModelCompression-MultidatasetTraining-Multibackbone
 
 ## 五、YOLO系列
-### 5.1 Enriching Variety of Layer-wise Learning Information by Gradient Combination
+### 5.1 Enriching Variety of Layer-wise Learning Information by Gradient Combination(ICCV2019)  
+YOLO-v3-tiny-PRN  
 | Model | Size | mAP@0.5 | BFLOPs |
 | :-- | :-: | :-: | :-- |
 | EfficientNet_b0-PRN | 416x416 | 45.5 | 3.730 |
 | EfficientNet_b0-PRN | 320x320 | 41.0 | 2.208 |
+  
+|Model	|mAP@0.5	|BFLOPs	|# Parameter	|GPU FPS	|CPU FPS|
+|YOLO-v3-tiny [1]	| 33.1 |	5.571 |	8.86M |	300 |	8 |
+YOLO-v3-tiny-PRN |	33.1 |	3.467 |	4.95M |	370 |	13 |
 + https://github.com/WongKinYiu/PartialResidualNetworks
 ### 5.2 Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving
 ![4.png](image/4.png)
@@ -132,7 +137,7 @@ Traffic Signal Violation Detection System using Computer Vision - A Computer Vis
 | YOLO Nano | 4.0MB | 69.1% | 4.57B |
 + https://arxiv.org/pdf/1910.01271.pdf
 + https://github.com/liux0614/yolo_nano
-### 5.4YOLO-LITE: A Real-Time Object Detection Algorithm Optimized for Non-GPU Computers
+### 5.4 YOLO-LITE: A Real-Time Object Detection Algorithm Optimized for Non-GPU Computers
 | DataSet       | mAP           | FPS   |
 | ------------- |:-------------:| -----:|
 | PASCAL VOC    | 33.57         |   21  |
@@ -180,7 +185,7 @@ YOLOv3+ASFF(自适应空间特征融合)组合，性能优于CornerNet和CenterN
 + https://mp.weixin.qq.com/s/St5WevfcVt4RubJsY-ZEHw
 ### 5.9 xYOLO: A Model For Real-Time Object Detection In Humanoid Soccer On Low-End Hardware
 + https://arxiv.org/abs/1910.03159
-### 5.10、CSPNet: A New Backbone that can Enhance Learning Capability of CNN
+### 5.10、CSPNet: A New Backbone that can Enhance Learning Capability of CNN(yolov4 backbone)
 ![9.png](image/9.png)
 + https://arxiv.org/abs/1911.11929
 + https://github.com/WongKinYiu/CrossStagePartialNetworks
