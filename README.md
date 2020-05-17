@@ -116,7 +116,8 @@ Traffic Signal Violation Detection System using Computer Vision - A Computer Vis
 
 ## 五、YOLO系列
 ### 5.1 Enriching Variety of Layer-wise Learning Information by Gradient Combination(ICCV2019)  
-YOLO-v3-tiny-PRN  
+YOLO-v3-tiny-PRN:  
+由于 PRN 的简洁设计，它可以使所有模型受益，特别是对于轻量的模型。在 MSCOCO 目标检测实验中，YOLO-v3-PRN 保持与 YOLO-v3 相同的精度，参数减少了 55%，计算量减少了 35%，同时执行速度提高了两倍。对于轻量的模型，YOLO-v3-tiny-PRN 在比 YOLO-v3-tiny 少 37% 的参数和 38% 的计算量的情况下保持相同的精度，并且在 NVIDIA Jetson TX2 平台上将帧速率提高了 12 fps.  
 | Model | Size | mAP@0.5 | BFLOPs |
 | :-- | :-: | :-: | :-- |
 | EfficientNet_b0-PRN | 416x416 | 45.5 | 3.730 |
